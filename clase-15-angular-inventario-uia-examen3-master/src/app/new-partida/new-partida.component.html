@@ -1,0 +1,49 @@
+<h2>Agregar Nueva Partida de Material</h2>
+
+<div>
+    <form appearance="fill">
+      <label>Id Partida:</label>
+      <input Input for="new-partida" #idPartida>
+    </form>
+
+    <form appearance="fill">
+      <label>Nombre Partida:</label>
+      <input Input for="new-partida" #name>
+    </form>
+
+
+    <form appearance="fill">
+        <label>Id Subpartida:</label>
+        <input Input for="new-partida" #idSubpartida>
+      </form>
+
+      <form appearance="fill">
+        <label>Nombre Subpartida:</label>
+        <input Input for="new-partida" #nameSubpartida>
+      </form>
+  
+      <form appearance="fill">
+        <label>Id Categoria:</label>
+        <input Input for="new-partida" #idCategoria>
+      </form>
+
+      <form appearance="fill">
+        <label>Nombre Categoria:</label>
+        <input Input for="new-partida" #nameCategoria>
+      </form>
+  
+
+    
+      <form appearance="fill">
+        <label>Nivel Minimo:</label>
+        <input Input for="new-partida" #minimoNivel>
+      </form>
+
+   <!-- (click) passes input value to agregar() and then clears the input -->
+   <button class="add-button" (click)="agregar( idPartida.value, name.value, idSubpartida.value, nameSubpartida.value, idCategoria.value, nameCategoria.value); " >
+    Agregue una Partida Nueva
+  </button>
+
+
+</div>
+

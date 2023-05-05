@@ -1,0 +1,75 @@
+<mat-toolbar >
+    <span class="menu-spacer"></span>
+    <div> 
+      <mat-toolbar-row >
+                <div class="pull-left">                    
+                    <label style="align-content:space-around;  font-size:44px" style="color:#000000;">Inventarios UIA<span></span></label>
+                </div>
+      </mat-toolbar-row >
+      <mat-toolbar-row>
+                <div class="pull-right">                  
+                  <button color="primary" style="color:'#148ab8';font-size: 18px;" mat-button [matMenuTriggerFor]="menuA">Administración</button>
+                      <mat-menu #menuA="matMenu">
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#148ab8';font-size: 18px;" mat-button [routerLink]="'/consultaSolicitudes'">Consulta Solicitudes</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#148ab8';font-size: 18px;" mat-button [routerLink]="'/consultaPartidas'">Consulta Partidas</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#148ab8';font-size: 18px;" mat-button [routerLink]="'/nuevasPartidas'">Nuevas Partidas</a>
+                        </button>
+                      </mat-menu>
+
+
+
+                  <button color="primary" style="color:'#f6bd16'; font-size: 18px;" mat-button [matMenuTriggerFor]="menuB">Solicitudes Material</button>
+                      <mat-menu #menuB="matMenu">
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#f6bd16'; font-size: 18px;" mat-button [routerLink]="'/consultaSolicitudes'">Consulta</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#f6bd16'; font-size: 18px;" mat-button [routerLink]="'/nuevasSolicitudes'">Nuevas</a>
+                        </button>
+                  </mat-menu>
+                  <button color="primary" style="color:'#51c7bb'; font-size: 18px;" mat-button [matMenuTriggerFor]="menuC">Solicitudes Entregadas</button>
+                      <mat-menu #menuC="matMenu">
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#51c7bb'; font-size: 18px;" mat-button [routerLink]="'/consultaSolicitudesEntregadas'">Consulta</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#51c7bb'; font-size: 18px;" mat-button [routerLink]="'/nuevaSolicitudEntregada'">Nueva Solicitud Entregada</a>
+                        </button>
+                  </mat-menu>
+                  <button color="primary" style="color:'#5AA454';font-size: 18px;" mat-button [matMenuTriggerFor]="menuD">Ingreso Material</button>
+                      <mat-menu #menuD="matMenu">
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#5AA454';font-size: 18px;" mat-button [routerLink]="'/consultaIngreso'">Consulta</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#5AA454';font-size: 18px;" mat-button [routerLink]="'/nuevoIngreso'">Nuevo Ingreso</a>
+                        </button>
+                  </mat-menu>
+                  <button color="primary" style="color:'#5AA454';font-size: 18px;" mat-button [matMenuTriggerFor]="menuE">Baja Material</button>
+                      <mat-menu #menuE="matMenu">
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#5AA454';font-size: 18px;" mat-button [routerLink]="'/consultaBaja'">Consulta</a>
+                        </button>
+                        <button mat-raised-button color="primary">
+                          <a style="color:'#5AA454';font-size: 18px;" mat-button [routerLink]="'/nuevaBaja'">Nueva Baja</a>
+                        </button>
+                  </mat-menu>
+
+                    </div>
+            </mat-toolbar-row>
+          </div>
+  </mat-toolbar>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div style="height: 88vh;">  
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

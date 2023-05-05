@@ -1,0 +1,108 @@
+<div id="table" class="container marginT">
+    <table style="width: 100%;"
+      class="table borderT table-borderless table-striped table-sm table-sortable"
+    >
+      <thead class="">
+        <tr>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div  class="displayScroll">
+              <div style="font-size: 13px;">ID Partida</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID Subpartida</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+  
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID Categoria</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID Proveedor</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Nivel Minimo</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Nombre de Categoria</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Nombre de Subpartida</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th style="font-size: 13px;">Acción</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr *ngFor="let data of categorias  ">
+          <td style="width: 5%;">{{data.id }}</td>
+          <td style="width: 5%;">{{data.idPartida}}</td>
+          <td style="width: 8%;">{{data.idSubpartida}}</td>
+          <td style="width: 10%;">{{data.idCategoria}}</td>
+          <td style="width: 10%;" >{{data.idProveedor}} </td>
+          <td style="width: 10%;">{{data.minimoNivel}} </td>
+          <td style="width: 10%;">{{data.nameCategoria}} </td>
+          <td style="width: 10%;">{{data.nameSubpartida}} </td>
+  
+          <td style="width: 5%;">
+                <button (click)="openDialogNew(data.id)" class="btn btn-primary btn-sm " type="button">
+                    <span class="glyphicon glyphicon-search"></span><mat-icon>shopping_cart</mat-icon>
+                </button>            
+          </td>
+        </tr>
+      </tbody>
+  
+    </table>
+  </div>
+  
+  
+  
+

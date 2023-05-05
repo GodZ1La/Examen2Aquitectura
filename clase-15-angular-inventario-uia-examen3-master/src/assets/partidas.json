@@ -1,0 +1,1086 @@
+[
+    {
+        "id": "100-Material Oficina",
+        "name": "Material Oficina",
+        "estatus": null,
+        "clase": null,
+        "descripcion": null,
+        "idPartida": "100",
+        "idSubpartida": "120",
+        "nameSubpartida": "Silla",
+        "idCategoria": "121",
+        "nameCategoria": "Silla ejecutiva clase 1",
+        "nameLote": "lote1",
+        "cantidad": "5",
+        "idProveedor": "710",
+        "minimoNivel": "5",
+        "subpartidas": [
+            {
+                "id": "120-Silla",
+                "name": "120-Silla",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "120",
+                "categorias": [
+                    {
+                        "id": "121-Silla ejecutiva clase 1",
+                        "name": "121-Silla ejecutiva clase 1",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Silla",
+                        "nameCategoria": "Silla ejecutiva clase 1",
+                        "idPartida": null,
+                        "idSubpartida": "120",
+                        "idCategoria": "121",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "710",
+                        "lotes": [
+                            {
+                                "id": "710-100-120-121",
+                                "name": "710-100-120-121",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "710-121-Silla ejecutiva clase 1-0",
+                                "name": "710-121-Silla ejecutiva clase 1-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "710-121-Silla ejecutiva clase 1-1",
+                                "name": "710-121-Silla ejecutiva clase 1-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "710-121-Silla ejecutiva clase 1-2",
+                                "name": "710-121-Silla ejecutiva clase 1-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "710-121-Silla ejecutiva clase 1-3",
+                                "name": "710-121-Silla ejecutiva clase 1-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "710-121-Silla ejecutiva clase 1-4",
+                                "name": "710-121-Silla ejecutiva clase 1-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "120",
+                                "idCategoria": "121",
+                                "estatus": "Entregado"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "130-Silla",
+                "name": "130-Silla",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "120",
+                "categorias": [
+                    {
+                        "id": "132-Silla ejecutiva clase 2",
+                        "name": "132-Silla ejecutiva clase 2",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Silla",
+                        "nameCategoria": "Silla ejecutiva clase 2",
+                        "idPartida": null,
+                        "idSubpartida": "130",
+                        "idCategoria": "132",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "720",
+                        "lotes": [
+                            {
+                                "id": "720-100-130-132",
+                                "name": "720-100-130-132",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "720-132-Silla ejecutiva clase 2-0",
+                                "name": "720-132-Silla ejecutiva clase 2-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "720-132-Silla ejecutiva clase 2-1",
+                                "name": "720-132-Silla ejecutiva clase 2-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "720-132-Silla ejecutiva clase 2-2",
+                                "name": "720-132-Silla ejecutiva clase 2-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "720-132-Silla ejecutiva clase 2-3",
+                                "name": "720-132-Silla ejecutiva clase 2-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "720-132-Silla ejecutiva clase 2-4",
+                                "name": "720-132-Silla ejecutiva clase 2-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "130",
+                                "idCategoria": "132",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "110-Silla",
+                "name": "110-Silla",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "120",
+                "categorias": [
+                    {
+                        "id": "113-Silla secretarial clase 1",
+                        "name": "113-Silla secretarial clase 1",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Silla",
+                        "nameCategoria": "Silla secretarial clase 1",
+                        "idPartida": null,
+                        "idSubpartida": "110",
+                        "idCategoria": "113",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "730",
+                        "lotes": [
+                            {
+                                "id": "730-100-110-113",
+                                "name": "730-100-110-113",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "730-113-Silla secretarial clase 1-0",
+                                "name": "730-113-Silla secretarial clase 1-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "730-113-Silla secretarial clase 1-1",
+                                "name": "730-113-Silla secretarial clase 1-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "730-113-Silla secretarial clase 1-2",
+                                "name": "730-113-Silla secretarial clase 1-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "730-113-Silla secretarial clase 1-3",
+                                "name": "730-113-Silla secretarial clase 1-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "730-113-Silla secretarial clase 1-4",
+                                "name": "730-113-Silla secretarial clase 1-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla",
+                                "nameCategoria": "Silla secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "113",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "110-Silla ",
+                "name": "110-Silla ",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "120",
+                "categorias": [
+                    {
+                        "id": "114-Silla secretarial clase 2",
+                        "name": "114-Silla secretarial clase 2",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Silla ",
+                        "nameCategoria": "Silla secretarial clase 2",
+                        "idPartida": null,
+                        "idSubpartida": "110",
+                        "idCategoria": "114",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "740",
+                        "lotes": [
+                            {
+                                "id": "740-100-110-114",
+                                "name": "740-100-110-114",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "740-114-Silla secretarial clase 2-0",
+                                "name": "740-114-Silla secretarial clase 2-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "740-114-Silla secretarial clase 2-1",
+                                "name": "740-114-Silla secretarial clase 2-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "740-114-Silla secretarial clase 2-2",
+                                "name": "740-114-Silla secretarial clase 2-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "740-114-Silla secretarial clase 2-3",
+                                "name": "740-114-Silla secretarial clase 2-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "740-114-Silla secretarial clase 2-4",
+                                "name": "740-114-Silla secretarial clase 2-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Silla ",
+                                "nameCategoria": "Silla secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "110",
+                                "idCategoria": "114",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "200-Material Oficina",
+        "name": "Material Oficina",
+        "estatus": null,
+        "clase": null,
+        "descripcion": null,
+        "idPartida": "200",
+        "idSubpartida": "220",
+        "nameSubpartida": "Escritorio",
+        "idCategoria": "221",
+        "nameCategoria": "Escritorio ejecutiva clase 1",
+        "nameLote": "lote1",
+        "cantidad": "5",
+        "idProveedor": "810",
+        "minimoNivel": "5",
+        "subpartidas": [
+            {
+                "id": "220-Escritorio",
+                "name": "220-Escritorio",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "220",
+                "categorias": [
+                    {
+                        "id": "221-Escritorio ejecutiva clase 1",
+                        "name": "221-Escritorio ejecutiva clase 1",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Escritorio",
+                        "nameCategoria": "Escritorio ejecutiva clase 1",
+                        "idPartida": null,
+                        "idSubpartida": "220",
+                        "idCategoria": "221",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "810",
+                        "lotes": [
+                            {
+                                "id": "810-200-220-221",
+                                "name": "810-200-220-221",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "810-221-Escritorio ejecutiva clase 1-0",
+                                "name": "810-221-Escritorio ejecutiva clase 1-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": "Apartado"
+                            },
+                            {
+                                "id": "810-221-Escritorio ejecutiva clase 1-1",
+                                "name": "810-221-Escritorio ejecutiva clase 1-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": "Apartado"
+                            },
+                            {
+                                "id": "810-221-Escritorio ejecutiva clase 1-2",
+                                "name": "810-221-Escritorio ejecutiva clase 1-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": "Apartado"
+                            },
+                            {
+                                "id": "810-221-Escritorio ejecutiva clase 1-3",
+                                "name": "810-221-Escritorio ejecutiva clase 1-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": "Apartado"
+                            },
+                            {
+                                "id": "810-221-Escritorio ejecutiva clase 1-4",
+                                "name": "810-221-Escritorio ejecutiva clase 1-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "220",
+                                "idCategoria": "221",
+                                "estatus": "Apartado"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "230-Escritorio",
+                "name": "230-Escritorio",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "220",
+                "categorias": [
+                    {
+                        "id": "232-Escritorio ejecutiva clase 2",
+                        "name": "232-Escritorio ejecutiva clase 2",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Escritorio",
+                        "nameCategoria": "Escritorio ejecutiva clase 2",
+                        "idPartida": null,
+                        "idSubpartida": "230",
+                        "idCategoria": "232",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "820",
+                        "lotes": [
+                            {
+                                "id": "820-200-230-232",
+                                "name": "820-200-230-232",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "820-232-Escritorio ejecutiva clase 2-0",
+                                "name": "820-232-Escritorio ejecutiva clase 2-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "820-232-Escritorio ejecutiva clase 2-1",
+                                "name": "820-232-Escritorio ejecutiva clase 2-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "820-232-Escritorio ejecutiva clase 2-2",
+                                "name": "820-232-Escritorio ejecutiva clase 2-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "820-232-Escritorio ejecutiva clase 2-3",
+                                "name": "820-232-Escritorio ejecutiva clase 2-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "820-232-Escritorio ejecutiva clase 2-4",
+                                "name": "820-232-Escritorio ejecutiva clase 2-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio",
+                                "nameCategoria": "Escritorio ejecutiva clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "230",
+                                "idCategoria": "232",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "210-Escritorio ",
+                "name": "210-Escritorio ",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "220",
+                "categorias": [
+                    {
+                        "id": "214-Escritorio secretarial clase 2",
+                        "name": "214-Escritorio secretarial clase 2",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Escritorio ",
+                        "nameCategoria": "Escritorio secretarial clase 2",
+                        "idPartida": null,
+                        "idSubpartida": "210",
+                        "idCategoria": "214",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "840",
+                        "lotes": [
+                            {
+                                "id": "840-200-210-214",
+                                "name": "840-200-210-214",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "840-214-Escritorio secretarial clase 2-0",
+                                "name": "840-214-Escritorio secretarial clase 2-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-214-Escritorio secretarial clase 2-1",
+                                "name": "840-214-Escritorio secretarial clase 2-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-214-Escritorio secretarial clase 2-2",
+                                "name": "840-214-Escritorio secretarial clase 2-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-214-Escritorio secretarial clase 2-3",
+                                "name": "840-214-Escritorio secretarial clase 2-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-214-Escritorio secretarial clase 2-4",
+                                "name": "840-214-Escritorio secretarial clase 2-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Escritorio ",
+                                "nameCategoria": "Escritorio secretarial clase 2",
+                                "idPartida": null,
+                                "idSubpartida": "210",
+                                "idCategoria": "214",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "300-Material Oficina",
+        "name": "Material Oficina",
+        "estatus": null,
+        "clase": null,
+        "descripcion": null,
+        "idPartida": "300",
+        "idSubpartida": "330",
+        "nameSubpartida": "Librero",
+        "idCategoria": "331",
+        "nameCategoria": "Librero ejecutiva clase 1",
+        "nameLote": "lote1",
+        "cantidad": "5",
+        "idProveedor": "810",
+        "minimoNivel": "5",
+        "subpartidas": [
+            {
+                "id": "330-Librero",
+                "name": "330-Librero",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "330",
+                "categorias": [
+                    {
+                        "id": "331-Librero ejecutiva clase 1",
+                        "name": "331-Librero ejecutiva clase 1",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Librero",
+                        "nameCategoria": "Librero ejecutiva clase 1",
+                        "idPartida": null,
+                        "idSubpartida": "330",
+                        "idCategoria": "331",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "810",
+                        "lotes": [
+                            {
+                                "id": "810-300-330-331",
+                                "name": "810-300-330-331",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "810-331-Librero ejecutiva clase 1-0",
+                                "name": "810-331-Librero ejecutiva clase 1-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "810-331-Librero ejecutiva clase 1-1",
+                                "name": "810-331-Librero ejecutiva clase 1-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "810-331-Librero ejecutiva clase 1-2",
+                                "name": "810-331-Librero ejecutiva clase 1-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "810-331-Librero ejecutiva clase 1-3",
+                                "name": "810-331-Librero ejecutiva clase 1-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": "Entregado"
+                            },
+                            {
+                                "id": "810-331-Librero ejecutiva clase 1-4",
+                                "name": "810-331-Librero ejecutiva clase 1-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero ejecutiva clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "330",
+                                "idCategoria": "331",
+                                "estatus": "Entregado"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "340-Librero",
+                "name": "340-Librero",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "330",
+                "categorias": [
+                    {
+                        "id": "343-Librero secretarial clase 1",
+                        "name": "343-Librero secretarial clase 1",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Librero",
+                        "nameCategoria": "Librero secretarial clase 1",
+                        "idPartida": null,
+                        "idSubpartida": "340",
+                        "idCategoria": "343",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "830",
+                        "lotes": [
+                            {
+                                "id": "830-300-340-343",
+                                "name": "830-300-340-343",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "830-343-Librero secretarial clase 1-0",
+                                "name": "830-343-Librero secretarial clase 1-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "830-343-Librero secretarial clase 1-1",
+                                "name": "830-343-Librero secretarial clase 1-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "830-343-Librero secretarial clase 1-2",
+                                "name": "830-343-Librero secretarial clase 1-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "830-343-Librero secretarial clase 1-3",
+                                "name": "830-343-Librero secretarial clase 1-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "830-343-Librero secretarial clase 1-4",
+                                "name": "830-343-Librero secretarial clase 1-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero",
+                                "nameCategoria": "Librero secretarial clase 1",
+                                "idPartida": null,
+                                "idSubpartida": "340",
+                                "idCategoria": "343",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "350-Librero ",
+                "name": "350-Librero ",
+                "estatus": null,
+                "clase": "Subpartidas",
+                "idSubpartida": "330",
+                "categorias": [
+                    {
+                        "id": "355-Librero secretarial clase 3",
+                        "name": "355-Librero secretarial clase 3",
+                        "clase": "Item",
+                        "namePartida": null,
+                        "nameSubpartida": "Librero ",
+                        "nameCategoria": "Librero secretarial clase 3",
+                        "idPartida": null,
+                        "idSubpartida": "350",
+                        "idCategoria": "355",
+                        "estatus": null,
+                        "minimoNivel": 5,
+                        "cantidadEntrega": -1,
+                        "idProveedor": "840",
+                        "lotes": [
+                            {
+                                "id": "840-300-350-355",
+                                "name": "840-300-350-355",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": null,
+                                "fechaIngreso": null,
+                                "nameEmbalaje": null,
+                                "embalaje": null
+                            }
+                        ],
+                        "items": [
+                            {
+                                "id": "840-355-Librero secretarial clase 3-0",
+                                "name": "840-355-Librero secretarial clase 3-0",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-355-Librero secretarial clase 3-1",
+                                "name": "840-355-Librero secretarial clase 3-1",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-355-Librero secretarial clase 3-2",
+                                "name": "840-355-Librero secretarial clase 3-2",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-355-Librero secretarial clase 3-3",
+                                "name": "840-355-Librero secretarial clase 3-3",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": "Disponible"
+                            },
+                            {
+                                "id": "840-355-Librero secretarial clase 3-4",
+                                "name": "840-355-Librero secretarial clase 3-4",
+                                "clase": "Item",
+                                "namePartida": null,
+                                "nameSubpartida": "Librero ",
+                                "nameCategoria": "Librero secretarial clase 3",
+                                "idPartida": null,
+                                "idSubpartida": "350",
+                                "idCategoria": "355",
+                                "estatus": "Disponible"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

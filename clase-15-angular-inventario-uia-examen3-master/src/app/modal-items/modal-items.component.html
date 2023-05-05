@@ -1,0 +1,85 @@
+<div class="container marginT" id="table"  >
+    <table style="width: 100%;"
+      class="table borderT table-borderless table-striped table-sm table-sortable"
+    >
+      <thead class="">
+        <tr>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div  class="displayScroll">
+              <div style="font-size: 13px;">Nombre</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Nombre Subpartida</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+  
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Nombre Categoria</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Estatus</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          
+          <th style="font-size: 13px;">Acción</th>
+        </tr>
+      </thead>
+  
+      <tbody>
+        <tr *ngFor="let data of items ">
+          <td style="width: 5%;">{{data.id }}</td>
+          <td style="width: 5%;">{{data.name}}</td>
+          <td style="width: 8%;">{{data.nameSubpartida}}</td>
+          <td style="width: 10%;">{{data.nameCategoria}}</td>
+          <td style="width: 10%;">{{data.estatus}}</td>
+          
+          <td *ngIf="data.estatus === 'Disponible'" >  
+            <label>
+                <input type="checkbox" [value]="data.id" [checked]="data.checked" (change)="onCheckboxChange($event)" />
+                {{data.name}}
+              </label>           
+          </td>
+        </tr>
+        <button class="btn btn-primary" type="submit" [disabled]="">Submit</button>
+      </tbody>
+  
+    </table>
+
+<mat-paginator
+    #paginatorPageSize
+    [pageSizeOptions]="[5, 10, 15]"
+    showFirstLastButtons>
+    </mat-paginator>
+  </div>
+  
+ <app-new-solicitud></app-new-solicitud>

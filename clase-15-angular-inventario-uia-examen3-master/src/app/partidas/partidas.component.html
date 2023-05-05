@@ -1,0 +1,130 @@
+<div id="table" class="container marginT">
+    <table style="width: 100%;"
+      class="table borderT table-borderless table-striped table-sm table-sortable"
+    >
+      <thead class="">
+        <tr>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">ID</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div  class="displayScroll">
+              <div style="font-size: 13px;">Fecha</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Tipo de eventualidad</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+  
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Tipo de riesgo</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Factor de riesgo</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">OOAD</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Localidad</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Guardería</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="displayScroll">
+              <div style="font-size: 13px;">Estatus</div>
+              <div class="scrolls">
+                <div><span>&#9650;</span></div>
+                <div><span>&#9660;</span></div>
+              </div>
+            </div>
+          </th>
+          <th style="font-size: 13px;">Acción</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of dataAlerta ">
+          <td style="width: 5%;">{{ data.id }}</td>
+          <td style="width: 5%;">01/12/2012</td>
+          <td style="width: 8%;">{{data.id}}</td>
+          <td style="width: 10%;">{{data.idPartida}}</td>
+          <td style="width: 10%;" >{{data.name}} </td>
+          <td style="width: 10%;">{{data.idCategoria}} </td>
+          <td style="width: 10%;">{{data.nameCategoria}} </td>
+          <td style="width: 10%;">{{data.idProveedor}} </td>
+            <div class="row-table" >
+              <div class="Ellipse-26"></div>
+              <span class="En-revisin" >En revisión</span>
+            </div>
+  
+          <td style="width: 5%;">
+            <div class="icon-row">
+          <span mat-raised-button (click)="GiveDataForm(data.id,'consultar')">
+                <img src="{{ urlaccion }}iconver.png" class="Ver"  /></span>
+  
+              <span mat-raised-button (click)="GiveDataForm(data.id,'editar')">
+                 <img  src="{{ urlaccion }}iconedit.png" class="Icon-edit-active"  /></span>
+  
+  
+                <span mat-raised-button (click)="openDialog(data.id)">
+                 <img  src="{{ urlaccion }}icontrash.png"  class="Icon-trash-active"  />
+               </span>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+  
+    </table>
+  </div>
+  
+  <div style="text-align: right;  font-style: normal; font-size: 13px; color: grey;">
+  <label ><span class="glyphicon glyphicon-list"></span> Eventualidades reportadas: {{totalRows}}</label>
+  </div>
+  

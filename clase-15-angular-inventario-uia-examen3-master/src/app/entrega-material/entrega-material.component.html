@@ -1,0 +1,66 @@
+<h2>Agregar Entrega Material</h2>
+
+<div>
+    <form appearance="fill">
+      <label>Id Partida:</label>
+      <input Input for="new-ingreso" #idPartida>
+    </form>
+
+    <form appearance="fill">
+      <label>Nombre Partida:</label>
+      <input Input for="new-ingreso" #name>
+    </form>
+
+
+    <form appearance="fill">
+        <label>Id Subpartida:</label>
+        <input Input for="new-ingreso" #idSubpartida>
+      </form>
+
+      <form appearance="fill">
+        <label>Nombre Subpartida:</label>
+        <input Input for="new-ingreso" #nameSubpartida>
+      </form>
+  
+      <form appearance="fill">
+        <label>Id Categoria:</label>
+        <input Input for="new-ingreso" #idCategoria>
+      </form>
+
+      <form appearance="fill">
+        <label>Nombre Categoria:</label>
+        <input Input for="new-ingreso" #nameCategoria>
+      </form>
+  
+      <form appearance="fill">
+        <label>Lote:</label>
+        <input Input for="new-ingreso" #nameLote>
+      </form>
+
+      <form appearance="fill">
+        <label>Cantidad:</label>
+        <input Input for="new-ingreso" #cantidad>
+      </form>
+
+      <form appearance="fill">
+        <label>Estatus:</label>
+        <input Input for="new-ingreso" #estatus>
+      </form>
+  
+      <form appearance="fill">
+        <label>Id Proveedor:</label>
+        <input Input for="new-ingreso" #idProveedor>
+      </form>
+  
+      <form appearance="fill">
+        <label>Nivel Minimo:</label>
+        <input Input for="new-ingreso" #minimoNivel>
+      </form>
+
+   <!-- (click) passes input value to agregar() and then clears the input -->
+   <button class="add-button" (click)="agregar( idPartida.value, name.value, idSubpartida.value, nameSubpartida.value, idCategoria.value, nameCategoria.value, estatus.value, idProveedor.value, cantidad.value); " >
+    Agregue un lote
+  </button>
+
+
+</div>
