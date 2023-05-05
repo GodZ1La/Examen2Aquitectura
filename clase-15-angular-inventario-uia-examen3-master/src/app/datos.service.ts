@@ -18,9 +18,9 @@ export class DatosService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
 
-  partidasUrl = "http://localhost:8090/inventario/Partidas";
+  partidasUrl = "http://localhost:8080/inventario/Partidas";
   solicitudesArchivoURL: string = '/assets/solicitudesMaterial.json';
-  solicitudesUrl = "http://localhost:8090/inventario/SolicitudMaterial";
+  solicitudesUrl = "http://localhost:8080/inventario/SolicitudMaterial";
   
   private idSolicitud: string = "";
   private idSolicitud$ = new BehaviorSubject<string>("");
