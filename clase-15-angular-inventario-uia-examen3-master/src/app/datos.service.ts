@@ -21,6 +21,7 @@ export class DatosService {
   partidasUrl = "http://localhost:8080/inventario/Partidas";
   solicitudesArchivoURL: string = '/assets/solicitudesMaterial.json';
   solicitudesUrl = "http://localhost:8080/inventario/SolicitudMaterial";
+  solicitudesEntregadasUrl = "http://localhost:8080/inventario/SolicitudEntrega";
   
   private idSolicitud: string = "";
   private idSolicitud$ = new BehaviorSubject<string>("");
@@ -49,6 +50,9 @@ export class DatosService {
 
   private itemsEntregar: IItem[] = [];
   private itemsEntregar$ = new BehaviorSubject<IItem[]>([]);
+
+  private itemsBaja: IItem[] = [];
+  private itemsBaja$ = new BehaviorSubject<IItem[]>([]);
 
   constructor(private http: HttpClient) 
   {     
@@ -163,6 +167,53 @@ export class DatosService {
 
 
 
+
+  setItemBaja(item:IItem)
+  {
+    this.itemsBaja.push(item);
+    this.itemsBaja$.next(this.itemsBaja);
+  }
+
+
+  unsetItemBaja(id: string) 
+  {
+    let newItemsBaja: IItem[] = [];
+    this.itemsBaja$ = new BehaviorSubject<IItem[]>([]);
+    this.itemsBaja.forEach(p=>
+      {
+        if(id !== p.id)
+          newItemsBaja.push(p);
+      })
+    this.itemsBaja=newItemsBaja;
+    this.itemsBaja$.next(this.itemsBaja);
+  }
+
+  limpiaBaja() 
+  {
+    let newItemsBaja: IItem[] = [];
+    this.itemsBaja = newItemsBaja;
+    this.itemsBaja$ = new BehaviorSubject<IItem[]>([]);
+  }
+
+  setItemsBaja(items: IItem[]) 
+  {
+    this.itemsBaja = items;
+    this.itemsBaja$ = new BehaviorSubject<IItem[]>([]);
+    this.itemsBaja$.next(this.itemsBaja);
+
+  }
+
+  getItemsBaja$(): Observable<IItem[]> {
+    return this.itemsBaja$;    
+  }
+
+  getItemsBaja(): IItem[] 
+  {
+    return this.itemsBaja;    
+  }
+
+
+
   setItemEntregar(item:IItem)
   {
     this.itemsEntregar.push(item);
@@ -183,6 +234,13 @@ export class DatosService {
     this.itemsEntregar$.next(this.itemsEntregar);
   }
 
+
+
+  getItemsEntregar$(): Observable<IItem[]> {
+    return this.itemsEntregar$;    
+  }
+
+
   limpiaEntregar() 
   {
     let newItemsEntregar: IItem[] = [];
@@ -190,25 +248,10 @@ export class DatosService {
     this.itemsEntregar$ = new BehaviorSubject<IItem[]>([]);
   }
 
-  setItemsEntregar(items: IItem[]) 
-  {
-    this.itemsEntregar = items;
-    this.itemsEntregar$ = new BehaviorSubject<IItem[]>([]);
-    this.itemsEntregar$.next(this.itemsEntregar);
-
-  }
-
-  getItemsEntregar$(): Observable<IItem[]> {
-    return this.itemsEntregar$;    
-  }
-
   getItemsEntregar(): IItem[] 
   {
     return this.itemsEntregar;    
   }
-
-  
-
 
 
 
@@ -246,6 +289,18 @@ enviaNewSolicitud(solicitud:ISolicitudMaterial): Observable<ISolicitudMaterial>
   return this.http.post<ISolicitudMaterial>(this.solicitudesUrl, solicitud, this.httpOptions).pipe(
     tap((newSolicitudMaterial: ISolicitudMaterial) => console.log(`added SolicitudMaterial w/ name=${newSolicitudMaterial}`)),
     catchError(this.handleError<ISolicitudMaterial>('addSolicitudMaterial'))
+  );
+  
+  
+}
+
+
+
+enviaNewSolicitudEntregada(solicitud:ISolicitudMaterial): Observable<ISolicitudMaterial> 
+{
+  return this.http.post<ISolicitudMaterial>(this.solicitudesEntregadasUrl, solicitud, this.httpOptions).pipe(
+    tap((newSolicitudMaterialEntregada: ISolicitudMaterial) => console.log(`added SolicitudMaterialEntregada w/ name=${newSolicitudMaterialEntregada}`)),
+    catchError(this.handleError<ISolicitudMaterial>('addSolicitudMaterialEntregada'))
   );
   
   

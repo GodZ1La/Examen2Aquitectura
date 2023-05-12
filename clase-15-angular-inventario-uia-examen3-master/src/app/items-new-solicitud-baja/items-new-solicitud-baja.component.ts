@@ -11,15 +11,14 @@ import { IItem, ISolicitudMaterial } from '../ISolicitudMaterial';
 import { SolicitudMaterialComponent } from '../solicitud-material/solicitud-material.component';
 import { ModalDetailsComponent } from '../modal-details/modal-details.component';
 
-
 @Component({
-  selector: 'app-items-new-solicitud-entregar',
-  templateUrl: './items-new-solicitud-entregar.component.html',
-  styleUrls: ['./items-new-solicitud-entregar.component.css']
+  selector: 'app-items-new-solicitud-baja',
+  templateUrl: './items-new-solicitud-baja.component.html',
+  styleUrls: ['./items-new-solicitud-baja.component.css']
 })
 
 
-export class ItemsNewSolicitudEntregarComponent implements OnInit  {
+export class ItemsNewSolicitudBajaComponent implements OnInit  {
   items: IItem[] = [];
   pageActual:number=1;
   //Material table columns
@@ -31,11 +30,11 @@ export class ItemsNewSolicitudEntregarComponent implements OnInit  {
   data: any;
   public totalRows = 0;
   peticiones: any;
-  newIdSolicitud: string="";
+  newIdSolicitud:string="";
 
    constructor(public datosServicio:DatosService,  public dialog: MatDialog, private Nav: Router) 
    {     
-    this.datosServicio.getItemsEntregar$().subscribe((data: IItem[])=>{
+    this.datosServicio.getItemsCarrito$().subscribe((data: IItem[])=>{
       console.log(data);
       this.items = data;
     })
@@ -44,7 +43,7 @@ export class ItemsNewSolicitudEntregarComponent implements OnInit  {
                 
    ngOnInit(): void {
                 
-    this.datosServicio.getItemsEntregar$().subscribe((data: IItem[])=>{
+    this.datosServicio.getItemsCarrito$().subscribe((data: IItem[])=>{
       console.log(data);
       this.items = data;
     })
@@ -54,14 +53,14 @@ export class ItemsNewSolicitudEntregarComponent implements OnInit  {
 
 
   
-  agregaNewSolicitudEntregar()
+    
+  agregaSolicitudBajaMaterial()
   {
     var newSolicitud = <ISolicitudMaterial>{};
     
-    newSolicitud.items = this.datosServicio.getItemsEntregar(); 
-    newSolicitud.id = this.datosServicio.getIdSolicitudMaterial();
+    newSolicitud.items = this.datosServicio.getItemsCarrito(); 
     
-    this.datosServicio.enviaNewSolicitudEntregada(newSolicitud)
+    this.datosServicio.enviaNewSolicitud(newSolicitud)
       .subscribe((result: ISolicitudMaterial) => {
          this.newIdSolicitud = result.id;
          //this.datosServicio.setIdSolicitudEntregada(this.newIdSolicitud);
@@ -78,6 +77,9 @@ export class ItemsNewSolicitudEntregarComponent implements OnInit  {
     
       
   }
-  }
+
+  
+  
+}
        
   

@@ -48,6 +48,8 @@ export interface ISubpartida
             nameLote: string,
             cantidad: number,
             minimoNivel: number,
+            estatus: string,
+            selected:boolean,
             idProveedor: string
             categorias: ICategoria[]; 
   }
@@ -64,6 +66,8 @@ export interface ICategoria
             nameLote: string,
             cantidad: number,
             minimoNivel: number,
+            estatus: string,
+            selected:boolean,
             idProveedor: string
             items: IItem[]; 
   }

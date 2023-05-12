@@ -26,7 +26,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatListModule} from '@angular/material/list'; 
 import { MatGridListModule } from '@angular/material/grid-list';
 import { EntregaMaterialComponent } from './entrega-material/entrega-material.component';
-import { PartidasComponent } from './partidas/partidas.component';
 import {MatMenuModule} from '@angular/material/menu';
 import { NewSolicitudComponent } from './new-solicitud/new-solicitud.component';
 import { NewPartidaComponent } from './new-partida/new-partida.component';
@@ -39,6 +38,8 @@ import { AdminitracionComponent } from './adminitracion/adminitracion.component'
 import { SolicitudesComponent } from './solicitudes/solicitudes.component';
 import { ConsultaBajaComponent } from './consulta-baja/consulta-baja.component';
 import { NewBajaComponent } from './new-baja/new-baja.component';
+import { ModalRevisaBajasComponent } from './modal-revisa-bajas/modal-revisa-bajas.component';
+import { ItemsNewSolicitudBajaComponent } from './items-new-solicitud-baja/items-new-solicitud-baja.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,6 @@ import { NewBajaComponent } from './new-baja/new-baja.component';
     ModalCategoriasComponent,
     ModalItemsComponent,
     EntregaMaterialComponent,
-    PartidasComponent,
     NewSolicitudComponent,
     NewPartidaComponent,
     NewSolicitudEntregadaComponent,
@@ -64,6 +64,8 @@ import { NewBajaComponent } from './new-baja/new-baja.component';
     SolicitudesComponent,
     ConsultaBajaComponent,
     NewBajaComponent,
+    ModalRevisaBajasComponent,
+    ItemsNewSolicitudBajaComponent,
 
   ],
   imports: [
